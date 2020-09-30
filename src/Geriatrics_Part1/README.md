@@ -7,12 +7,12 @@ This repository contains the the code for fall detection.
 git clone https://github.com/Janya21/Geriatrics.git </br>
  
 ### To extract the video into frames: </br> 
-Create an Images folder with test and train as subfolders. Inside each one of them, create not_safe and safe as subfolders. </br>
-Then, move to the images folder and run this line in the command prompt: </br>
+Create an Images folder with test and train as subfolders. Inside each one of them, create not_safe and safe as subfolders. Also, create a file named datafile.csv in the Images folder. </br>
+Then, move to the Images directory and run the following line in the terminal - </br>
 python extract_files.py mp4
 </br>
 ### To train your model: </br> 
-Then move to the Geriatrics_Part2 folder and type this line in the command prompt: </br>
+Then move to the Geriatrics_Part2 directory and run the following line in the terminal - </br>
 python train.py 50 2 480 640 </br>
 
 ### To test the model: </br> 
