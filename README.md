@@ -47,21 +47,27 @@ The two computer vision models are:
             pip install requirements.txt
         ```
     * #### Steps to Train Fall Detection Model
-        * #### Setting Up Data for Fall Detection Model
-            When in the Geriatrics directory,
+        * #### Setting Up Requirements for Fall Detection Model
+            When in the Geriatrics_Part1 directory,
             Enter the following line into the terminal -
             ```
                 pip install requirements.txt
             ```
+        * #### Extracting Images from the Videos
+            When in the Geriatrics_Part1 directory, create a folder called Images and two subfolders called 'test' and 'train' inside it. Inside each one of these create 'Fall' and 'Regular_Activity' folders. Create a file named datafile.csv.
+        Enter the following line into the terminal -
+        ```
+            python extract_files.py mp4
+        ```
         * #### Training Fall Detection Model
-            When in the Geriatrics directory,
+            When in the Geriatrics_Part1 directory,
             Enter the following line into the terminal -
             ```
                 python train.py 50 2 480 640
             ```
     * #### Steps to Run Fall Detection Model
         * #### Run the Fall Detection Model
-            Open terminal in the Geriatrics directory.
+            Open terminal in the GeriatricsPart1 directory.
             Enter the following line into the terminal -
             ```
                 python rt_classification.py 50 2 480 640 <model_name> <video_name>
@@ -75,7 +81,7 @@ The two computer vision models are:
             pip install requirements.txt
         ```
     * #### Steps to Train the Model
-        * #### Setting Up Data for the Model
+        * #### Setting Up Requirements for the Model
             When in the Geriatrics_Part2 directory,
             Enter the following line into the terminal -
             ```
