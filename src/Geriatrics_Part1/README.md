@@ -16,8 +16,8 @@ Then move to the Geriatrics_Part2 folder and type this line in the command promp
 python train.py 50 2 480 640 </br>
 
 ### To test the model: </br> 
-python rt_classification.py 50 2 480 640 'model_004_0.169_0.158.hdf5' 'Video/test/Fall/cam181.mp4' </br>
-python rt_classification.py 50 2 480 640 'model_004_0.169_0.158.hdf5' 'Video/test/Regular_Activity/cam184mp4' </br>
+python rt_classification.py 50 2 480 640 'model_021_0.289_0.384.hdf5' 'Video/test/Fall/cam181.mp4' </br>
+python rt_classification.py 50 2 480 640 'model_021_0.289_0.384.hdf5' 'Video/test/Regular_Activity/cam184mp4' </br>
 
 The output video with the classification (safe/not safe) printed on each frame would be stored in the same directory with the name 'result.avi'.
 
