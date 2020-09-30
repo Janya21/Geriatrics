@@ -4,7 +4,7 @@ This repository contains the the code for detecting if an elderly patient got ou
 # Instructions
 
 ### Command to clone this repository: </br> 
-git clone https://github.com/Janya21/Geriatrics_Part2.git </br>
+git clone https://github.com/Janya21/Geriatrics.git </br>
  
 ### To extract the video into frames: </br> 
 Create an Images folder with test and train as subfolders. Inside each one of them, create not_safe and safe as subfolders. </br>
